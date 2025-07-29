@@ -4,29 +4,29 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
   font-family: "Quicksand", sans-serif;
   background: transparent;
 }
 
 .navbarGlass {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(30, 30, 30, 0.7);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(60, 60, 60, 0.5);
   border-radius: 20px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1), 0 4px 16px rgba(0, 0, 0, 0.05),
-    inset 0 1px 0 rgba(255, 255, 255, 0.2);
-  padding: 1rem 2rem;
-  margin: 0 auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 4px 16px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  padding: 1rem 1rem;
+  margin: 0;
   max-width: 1600px;
   transition: all 0.3s ease;
 }
 
 .navbarGlass:hover {
-  background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15), 0 6px 20px rgba(0, 0, 0, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  background: rgba(40, 40, 40, 0.8);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 6px 20px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .container {
@@ -59,6 +59,20 @@
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
 }
 
+.logoImage {
+  height: 5rem;
+  width: auto;
+  max-width: 12rem;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+  transition: all 0.3s ease;
+}
+
+.logoImage:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+}
+
 .desktopMenu {
   display: flex;
   align-items: center;
@@ -70,7 +84,7 @@
 }
 
 .navLink {
-  color: #374151;
+  color: #A5B64B;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
@@ -92,7 +106,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  background: #A5B64B;
   opacity: 0;
   transition: opacity 0.3s ease;
   border-radius: 12px;
@@ -102,7 +116,7 @@
 .navLink:hover {
   color: #ffffff;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 4px 12px rgba(107, 142, 35, 0.3);
 }
 
 .navLink:hover::before {
@@ -111,8 +125,8 @@
 
 .navLink.active {
   color: #ffffff;
-  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+  background: #A5B64B;
+  box-shadow: 0 4px 12px rgba(107, 142, 35, 0.4);
   transform: translateY(-1px);
 }
 
@@ -121,11 +135,11 @@
   top: calc(100% + 10px);
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(30, 30, 30, 0.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(60, 60, 60, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.15);
   border-radius: 16px;
   padding: 1rem;
   display: flex;
@@ -154,8 +168,8 @@
   text-decoration: none;
   border-radius: 12px;
   transition: all 0.3s ease;
-  background: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(50, 50, 50, 0.5);
+  border: 1px solid rgba(80, 80, 80, 0.3);
 }
 
 .modalLink:hover {
@@ -168,14 +182,14 @@
 .modalTitle {
   font-size: 1rem;
   font-weight: 600;
-  color: #1f2937;
+  color: #ffffff;
   font-family: "Quicksand", sans-serif;
   margin-bottom: 0.25rem;
 }
 
 .modalDescription {
   font-size: 0.875rem;
-  color: #6b7280;
+  color: #d1d5db;
   margin: 0;
   font-family: "Quicksand", sans-serif;
   line-height: 1.4;
@@ -183,18 +197,18 @@
 
 .mobileToggle {
   display: none;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(50, 50, 50, 0.3);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(80, 80, 80, 0.4);
   border-radius: 10px;
   cursor: pointer;
   padding: 0.75rem;
   transition: all 0.3s ease;
-  color: #374151;
+  color: #e5e7eb;
 }
 
 .mobileToggle:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(70, 70, 70, 0.4);
   transform: scale(1.05);
 }
 
@@ -209,11 +223,11 @@
   top: calc(100% + 20px);
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(30, 30, 30, 0.95);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(60, 60, 60, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 8px 16px rgba(0, 0, 0, 0.15);
   border-radius: 16px;
   padding: 1.5rem;
   flex-direction: column;
@@ -260,7 +274,7 @@
     transform: none;
     box-shadow: none;
     padding: 0.5rem 0;
-    background: rgba(249, 250, 251, 0.8);
+    background: rgba(40, 40, 40, 0.8);
     backdrop-filter: blur(10px);
     border-radius: 12px;
     margin: 0.5rem 0;
@@ -270,11 +284,11 @@
     display: block;
     padding: 1rem;
     font-size: 1.125rem;
-    color: #374151;
+    color: #6B8E23;
     border-radius: 12px;
     margin: 0.25rem 0;
-    background: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(50, 50, 50, 0.5);
+    border: 1px solid rgba(80, 80, 80, 0.3);
   }
 
   .logo {

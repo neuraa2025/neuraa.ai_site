@@ -3,7 +3,7 @@
 /* Home Page Styles */
 .home {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   color: white;
   position: relative;
   font-family: "Quicksand", sans-serif;
@@ -28,7 +28,7 @@
 .side-nav-item {
   width: 50px;
   height: 50px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(42, 42, 42, 0.8);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -40,12 +40,12 @@
 }
 
 .side-nav-item:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(42, 42, 42, 0.9);
   transform: scale(1.1);
 }
 
 .side-nav-item.active {
-  background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+  background: linear-gradient(135deg, #a5b64b 0%, #7d9504 100%);
   transform: scale(1.2);
   box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
 }
@@ -187,8 +187,9 @@
 
 /* Hero Section */
 .hero {
-  padding: 100px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 90px 0;
+  height: 77vh;
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
 }
 
 .hero-content {
@@ -216,7 +217,7 @@
 }
 
 .highlight {
-  background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+  background: linear-gradient(45deg, #a5b64b, #8fbc8f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -229,7 +230,8 @@
 }
 
 .cta-button {
-  background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+    background: linear-gradient(45deg, #a5b64b 50%, #424f01 100%);
+
   color: white;
   border: none;
   padding: 15px 40px;
@@ -266,20 +268,23 @@
 .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #ff6b6b;
+  color: #a5b64b;
+
   margin-bottom: 5px;
 }
 
 .stat-label {
   font-size: 1rem;
+  font-weight: 500;
+  color: #a5b64b;
   opacity: 0.8;
 }
 
 /* Features Section */
 .features {
   padding: 80px 0;
-  background: #f8f9fa;
-  color: #333;
+  background: #2a2a2a;
+  color: #e0e0e0;
 }
 
 .features-header {
@@ -292,12 +297,12 @@
 .features-header h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .features-header p {
   font-size: 1.2rem;
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.6;
 }
 
@@ -330,17 +335,17 @@
 }
 
 .feature-card {
-  background: white;
+  background: #1a1a1a;
   padding: 30px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .feature-card img {
@@ -354,17 +359,17 @@
 .feature-card h3 {
   font-size: 1.4rem;
   margin-bottom: 15px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .feature-card p {
-  color: #666;
+  color: #b0b0b0;
   margin-bottom: 20px;
   line-height: 1.6;
 }
 
 .feature-btn {
-  background: linear-gradient(45deg, #667eea, #764ba2);
+  background: linear-gradient(45deg, #a5b64b 50%, #424f01 100%);
   color: white;
   border: none;
   padding: 12px 30px;
@@ -381,7 +386,8 @@
 /* Benefits Section */
 .benefits {
   padding: 80px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(45deg, #a5b64b 50%, #424f01 100%);
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   text-align: center;
 }
 
@@ -405,7 +411,7 @@
 }
 
 .mission-section {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(42, 42, 42, 0.8);
   padding: 40px;
   border-radius: 15px;
   backdrop-filter: blur(10px);
@@ -439,7 +445,7 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(42, 42, 42, 0.8);
   padding: 15px 20px;
   border-radius: 10px;
   color: white;
@@ -458,7 +464,7 @@
 .benefit-number {
   font-size: 4rem;
   font-weight: 700;
-  color: #ff6b6b;
+  color: #6b8e23;
   margin-bottom: 20px;
 }
 
@@ -471,15 +477,15 @@
 /* Why Choose Section */
 .why-choose {
   padding: 80px 0;
-  background: #f8f9fa;
-  color: #333;
+  background: #2a2a2a;
+  color: #e0e0e0;
 }
 
 .why-choose h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .why-grid {
@@ -492,17 +498,17 @@
 }
 
 .why-item {
-  background: white;
+  background: #1a1a1a;
   padding: 30px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .why-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .why-item img {
@@ -516,19 +522,19 @@
 .why-item h3 {
   font-size: 1.4rem;
   margin-bottom: 15px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .why-item p {
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.6;
 }
 
 /* Integration Section */
 .integration {
   padding: 80px 0;
-  background: white;
-  color: #333;
+  background: #1a1a1a;
+  color: #e0e0e0;
 }
 
 .integration-header {
@@ -541,12 +547,12 @@
 .integration-header h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .integration-header p {
   font-size: 1.2rem;
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.6;
 }
 
@@ -573,18 +579,18 @@
 }
 
 .channel-item {
-  background: white;
+  background: #2a2a2a;
   padding: 30px 20px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
   border: 2px solid transparent;
 }
 
 .channel-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
   border-color: #667eea;
 }
 
@@ -596,11 +602,11 @@
 .channel-item h3 {
   font-size: 1.3rem;
   margin-bottom: 15px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .channel-item p {
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.5;
   font-size: 0.9rem;
 }
@@ -618,14 +624,14 @@
 .integration-item {
   text-align: center;
   padding: 30px;
-  background: #f8f9fa;
+  background: #2a2a2a;
   border-radius: 15px;
   transition: all 0.3s ease;
 }
 
 .integration-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .integration-icon {
@@ -636,11 +642,11 @@
 .integration-item h3 {
   font-size: 1.4rem;
   margin-bottom: 15px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .integration-item p {
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -650,7 +656,7 @@
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 /* Contact Form */
@@ -695,7 +701,7 @@
 }
 
 .contact-item {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(42, 42, 42, 0.8);
   padding: 30px;
   border-radius: 15px;
   text-align: center;
@@ -722,15 +728,15 @@
 /* Team Section */
 .team-section {
   padding: 80px 0;
-  background: #f8f9fa;
-  color: #333;
+  background: #2a2a2a;
+  color: #e0e0e0;
 }
 
 .team-section h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .team-grid {
@@ -743,17 +749,17 @@
 }
 
 .team-member {
-  background: white;
+  background: #1a1a1a;
   padding: 30px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .team-member:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .team-member img {
@@ -767,7 +773,7 @@
 .team-member h3 {
   font-size: 1.3rem;
   margin-bottom: 5px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .team-role {
@@ -779,12 +785,12 @@
 
 .team-bio {
   font-size: 0.9rem;
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.5;
 }
 
 .demo-form {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(42, 42, 42, 0.8);
   padding: 40px;
   border-radius: 15px;
   backdrop-filter: blur(10px);
@@ -803,7 +809,8 @@
   border-radius: 10px;
   font-size: 1rem;
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(42, 42, 42, 0.9);
+  color: #e0e0e0;
 }
 
 .demo-form textarea {

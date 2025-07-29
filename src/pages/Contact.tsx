@@ -370,7 +370,7 @@ const contact = () => {
             <p>
               Ready to revolutionize your e-commerce experience? Our team of AI
               experts is here to help you implement cutting-edge virtual try-on
-              technology and reduce return rates by up to 50%.
+              technology
             </p>
             <div className="hero-stats">
               <div className="stat-item">

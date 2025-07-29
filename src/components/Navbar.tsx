@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import styles from "../styles/components_styles/Navbar.module.css";
+import logo from '../assets/Images/logo_neuraa.png'
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,15 +34,11 @@ const Navbar: React.FC = () => {
       <div className={styles.navbarGlass}>
         <div className={styles.container}>
           <NavLink to="/" className={styles.logo}>
-            <svg
-              className={styles.logoIcon}
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-            </svg>
-            <span>Neuraa.ai</span>
+            <img 
+              src={logo} 
+              alt="Neuraa.ai Logo" 
+              className={styles.logoImage}
+            />
           </NavLink>
 
           {/* Desktop Menu */}

@@ -3,7 +3,7 @@
 /* Beauty Page Styles */
 .beauty {
   min-height: 100vh;
-  background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+  /* background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%); */
   color: white;
   position: relative;
   font-family: "Quicksand", sans-serif;
@@ -45,7 +45,8 @@
 }
 
 .side-nav-item.active {
-  background: linear-gradient(45deg, #ff6b9d, #ff8fab);
+  background: linear-gradient(135deg, #a5b64b 0%, #7d9504 100%);
+
   transform: scale(1.2);
   box-shadow: 0 4px 15px rgba(255, 107, 157, 0.4);
 }
@@ -68,8 +69,9 @@
 
 /* Hero Section */
 .hero {
-  padding: 100px 0;
-  background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+  padding: 90px 0;
+
+  /* background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%); */
 }
 
 .hero-content {
@@ -98,7 +100,7 @@
 }
 
 .highlight {
-  background: linear-gradient(45deg, #ffd700, #ffb347);
+  background: linear-gradient(45deg, #a5b64b, #c4e328);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -124,12 +126,16 @@
 .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #ffd700;
+  color: #a5b64b;
+
   margin-bottom: 5px;
 }
 
 .stat-label {
   font-size: 1rem;
+  color: #a5b64b;
+  font-weight: 500;
+
   opacity: 0.8;
 }
 
@@ -143,15 +149,15 @@
 /* Features Section */
 .features {
   padding: 80px 0;
-  background: #f8f9fa;
-  color: #333;
+  background: #2a2a2a;
+  color: #e0e0e0;
 }
 
 .features h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .features-grid {
@@ -164,17 +170,17 @@
 }
 
 .feature-card {
-  background: white;
+  background: #1a1a1a;
   padding: 30px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .feature-icon {
@@ -186,11 +192,11 @@
 .feature-card h3 {
   font-size: 1.4rem;
   margin-bottom: 15px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .feature-card p {
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -220,15 +226,15 @@
 /* Products Section */
 .products {
   padding: 80px 0;
-  background: white;
-  color: #333;
+  background: #1a1a1a;
+  color: #e0e0e0;
 }
 
 .products h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .products-grid {
@@ -241,16 +247,16 @@
 }
 
 .product-card {
-  background: #f8f9fa;
+  background: #2a2a2a;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .product-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .product-card img {
@@ -262,12 +268,12 @@
 .product-card h3 {
   font-size: 1.4rem;
   margin: 20px 0 10px 0;
-  color: #333;
+  color: #e0e0e0;
   padding: 0 20px;
 }
 
 .product-card p {
-  color: #666;
+  color: #b0b0b0;
   margin-bottom: 15px;
   padding: 0 20px;
 }
@@ -288,7 +294,7 @@
 /* Benefits Section */
 .benefits {
   padding: 80px 0;
-  background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+  background: linear-gradient(45deg, #a5b64b 50%, #424f01 100%);
   color: white;
 }
 
@@ -364,15 +370,15 @@
 /* Demo Section */
 .demo {
   padding: 80px 0;
-  background: #f8f9fa;
-  color: #333;
+  background: #2a2a2a;
+  color: #e0e0e0;
 }
 
 .demo h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .demo-options {
@@ -385,17 +391,17 @@
 }
 
 .demo-card {
-  background: white;
+  background: #1a1a1a;
   padding: 40px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .demo-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .demo-icon {
@@ -407,11 +413,11 @@
 .demo-card h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .demo-card p {
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -451,7 +457,8 @@
 /* CTA Section */
 .cta-section {
   padding: 80px 0;
-  background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+   background: linear-gradient(45deg, #a5b64b 50%, #424f01 100%);
+
   color: white;
   text-align: center;
 }

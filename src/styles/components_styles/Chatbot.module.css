@@ -9,7 +9,7 @@
 }
 
 .chatIcon {
-  background-color: #8a2be2; /* A more vibrant purple */
+  background-color: #A5B64B; /* A more vibrant purple */
   color: white;
   width: 60px;
   height: 60px;
@@ -24,7 +24,7 @@
 
 .chatIcon:hover {
   transform: scale(1.1);
-  background-color: #9932cc; /* Darker purple on hover */
+  background-color: #A5B64B; /* Darker purple on hover */
 }
 
 .chatWindow {
@@ -33,9 +33,9 @@
   right: 0;
   width: 350px;
   max-height: 500px;
-  background-color: #f9f9f9;
+  background-color: #2a2a2a;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -54,7 +54,8 @@
 }
 
 .chatHeader {
-  background: linear-gradient(to right, #8a2be2, #4b0082); /* Gradient header */
+   background: linear-gradient(45deg, #a5b64b 50%, #424f01 100%);
+
   color: white;
   padding: 15px;
   display: flex;
@@ -92,20 +93,20 @@
 }
 
 .bot {
-  background-color: #e5e5ea;
-  color: #000;
+  background-color: #3a3a3a;
+  color: #ffffff;
   align-self: flex-start;
 }
 
 .user {
-  background-color: #8a2be2;
+  background-color: #A5B64B;
   color: #fff;
   align-self: flex-end;
 }
 
 .chatFooter {
   padding: 15px;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #555;
 }
 
 .questions {
@@ -116,7 +117,7 @@
 
 .questions button,
 .chatFooter button {
-  background-color: #8a2be2;
+  background-color: #A5B64B;
   color: white;
   border: none;
   padding: 10px;
@@ -128,5 +129,5 @@
 
 .questions button:hover,
 .chatFooter button:hover {
-  background-color: #9932cc;
+  background-color: #a5b64b;
 }

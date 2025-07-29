@@ -3,7 +3,7 @@
 /* Dressing Page Styles */
 .dressing {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
   color: white;
   position: relative;
   font-family: "Quicksand", sans-serif;
@@ -45,7 +45,9 @@
 }
 
 .side-nav-item.active {
-  background: linear-gradient(45deg, #667eea, #764ba2);
+   background: linear-gradient(135deg, #a5b64b 0%, #7d9504 100%);
+
+
   transform: scale(1.2);
   box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
 }
@@ -68,8 +70,9 @@
 
 /* Hero Section */
 .hero {
-  padding: 100px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 90px 0;
+
+  /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
 }
 
 .hero-content {
@@ -98,7 +101,7 @@
 }
 
 .highlight {
-  background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+  background: linear-gradient(45deg, #a5b64b, #bbd72d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -124,12 +127,16 @@
 .stat-number {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #ff6b6b;
+  color: #a5b64b;
+
   margin-bottom: 5px;
 }
 
 .stat-label {
   font-size: 1rem;
+  font-weight: 500;
+  color: #a5b64b;
+
   opacity: 0.8;
 }
 
@@ -143,15 +150,15 @@
 /* Features Section */
 .features {
   padding: 80px 0;
-  background: #f8f9fa;
-  color: #333;
+  background: #2a2a2a;
+  color: #e0e0e0;
 }
 
 .features h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .features-grid {
@@ -164,17 +171,17 @@
 }
 
 .feature-card {
-  background: white;
+  background: #1a1a1a;
   padding: 30px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .feature-icon {
@@ -186,11 +193,11 @@
 .feature-card h3 {
   font-size: 1.4rem;
   margin-bottom: 15px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .feature-card p {
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -220,15 +227,15 @@
 /* Clothing Categories */
 .clothing {
   padding: 80px 0;
-  background: white;
-  color: #333;
+  background: #1a1a1a;
+  color: #e0e0e0;
 }
 
 .clothing h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .clothing-grid {
@@ -241,16 +248,16 @@
 }
 
 .clothing-card {
-  background: #f8f9fa;
+  background: #2a2a2a;
   border-radius: 15px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .clothing-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .clothing-card img {
@@ -262,12 +269,12 @@
 .clothing-card h3 {
   font-size: 1.4rem;
   margin: 20px 0 10px 0;
-  color: #333;
+  color: #e0e0e0;
   padding: 0 20px;
 }
 
 .clothing-card p {
-  color: #666;
+  color: #b0b0b0;
   margin-bottom: 15px;
   padding: 0 20px;
 }
@@ -288,7 +295,10 @@
 /* Benefits Section */
 .benefits {
   padding: 80px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(45deg, #a5b64b 50%, #424f01 100%);
+
+
+
   color: white;
 }
 
@@ -364,15 +374,15 @@
 /* Demo Section */
 .demo {
   padding: 80px 0;
-  background: #f8f9fa;
-  color: #333;
+  background: #2a2a2a;
+  color: #e0e0e0;
 }
 
 .demo h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .demo-options {
@@ -385,17 +395,17 @@
 }
 
 .demo-card {
-  background: white;
+  background: #1a1a1a;
   padding: 40px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .demo-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .demo-icon {
@@ -407,11 +417,11 @@
 .demo-card h3 {
   font-size: 1.5rem;
   margin-bottom: 15px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .demo-card p {
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.6;
   margin-bottom: 20px;
 }
@@ -451,15 +461,15 @@
 /* Technology Section */
 .technology {
   padding: 80px 0;
-  background: white;
-  color: #333;
+  background: #1a1a1a;
+  color: #e0e0e0;
 }
 
 .technology h2 {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 50px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .technology-grid {
@@ -472,17 +482,17 @@
 }
 
 .tech-card {
-  background: #f8f9fa;
+  background: #2a2a2a;
   padding: 30px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .tech-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .tech-icon {
@@ -493,11 +503,11 @@
 .tech-card h3 {
   font-size: 1.3rem;
   margin-bottom: 15px;
-  color: #333;
+  color: #e0e0e0;
 }
 
 .tech-card p {
-  color: #666;
+  color: #b0b0b0;
   line-height: 1.6;
   font-size: 0.9rem;
 }
@@ -505,7 +515,8 @@
 /* CTA Section */
 .cta-section {
   padding: 80px 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(45deg, #a5b64b 50%, #424f01 100%);
+
   color: white;
   text-align: center;
 }

@@ -124,7 +124,7 @@ const Home = () => {
                 <div className="stat-label">Support</div>
               </div>
             </div>
-            <button className="cta-button">Request Demo</button>
+            {/* <button className="cta-button">Request Demo</button> */}
           </div>
 
         </div>
